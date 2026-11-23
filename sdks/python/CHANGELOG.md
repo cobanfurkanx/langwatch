@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.1.0](https://github.com/langwatch/langwatch/compare/python-sdk@v2.0.1...python-sdk@v2.1.0) (2026-11-23)
+
+
+### Features
+
+* **governance:** agent kill switch to stop agents on Databricks, Bedrock and the gateway, with approval and restore ([#9628](https://github.com/langwatch/langwatch/issues/9628)) ([857cc0d](https://github.com/langwatch/langwatch/commit/857cc0dc254c2cc7e1a1bd0096e753086a53648c))
+* **langy:** measured changes, CI as the lab, traces always found, and a judge that reads long traces ([#9536](https://github.com/langwatch/langwatch/issues/9536)) ([a697ebd](https://github.com/langwatch/langwatch/commit/a697ebdf2403dc0aad86e3240fa7e00620d2395d))
+
+
+### Bug Fixes
+
+* **coding-agent:** a Claude Code trace's conversation is its session, and a launcher can declare one session for all its runs ([#9758](https://github.com/langwatch/langwatch/issues/9758)) ([a4bda03](https://github.com/langwatch/langwatch/commit/a4bda03c3bd2933cadfa177d1bb142c20bdcae1b))
+* **dashboards:** widgets and graphs created without a size land readable; /api/graphs takes the grid's bounds ([#9737](https://github.com/langwatch/langwatch/issues/9737)) ([88d08a7](https://github.com/langwatch/langwatch/commit/88d08a739420c0d1c47f279d1087746f7fb3dddb))
+* **security:** raise uv floors for nltk, pyasn1, pypdf, filelock, dnspython and joserfc ([#9783](https://github.com/langwatch/langwatch/issues/9783)) ([0e3f51f](https://github.com/langwatch/langwatch/commit/0e3f51f4c40b0f3ac3dc6d2376bf6e91912c8baf))
+
 ## [2.0.1](https://github.com/langwatch/langwatch/compare/python-sdk@v2.0.0...python-sdk@v2.0.1) (2026-11-19)
 
 
