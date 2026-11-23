@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/langwatch/langwatch/compare/typescript-sdk@v2.3.0...typescript-sdk@v2.3.1) (2026-11-23)
+
+
+### Bug Fixes
+
+* **security:** vitest 5.0.5, go-chi, scenario-go grpc, fastmcp-slim and the remaining uv floors ([#8995](https://github.com/langwatch/langwatch/issues/8995)) ([1349269](https://github.com/langwatch/langwatch/commit/1349269a6001241beaf31ed23855808f15a13d7b))
+
 ## [2.3.0](https://github.com/langwatch/langwatch/compare/typescript-sdk@v2.2.0...typescript-sdk@v2.3.0) (2026-11-23)
 
 
